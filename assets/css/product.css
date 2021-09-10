@@ -1,0 +1,115 @@
+/*.quantity {
+		    justify-content: center;
+		    border: 1px solid #000;
+		    width: 181px;
+		}
+
+		.quantity button {
+		    border: 1px solid #000;
+		    color: #000;
+		    border-radius: 0;
+		    background: #fff
+		}
+
+		.quantity input {
+		    border: none;
+		    text-align: center;
+		    width: 100px;
+		    color: #000;
+		}*/
+
+		/*BUTTON CSS Add to CarT & Add to Wish-List*/
+		.box1{
+			position: relative;
+			overflow: hidden;
+			text-align: center;  
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+		
+		.content1{
+			color: #fff;
+			background: rgba(0, 0, 0, 0.3);
+			position: absolute;
+			top: 0;
+			left: -100%;
+			height: 100%;
+			width: 100%;
+			box-sizing: border-box;
+			transition: all 0.5s;
+		}
+		.box1:hover .content1{
+			left: 0;
+		}
+
+		/*line after ITEM Price*/
+		hr.new1 {
+  			border-top: 1px solid LightGray;
+			}
+
+		hr.new2 {
+  			border-top: 1px solid LightGray;
+			}
+
+	/*HOVER RIGHT*/
+	.modal.right .modal-dialog {
+		margin: auto;
+		width: 380px;
+		height: auto;
+		-webkit-transform: translate3d(0%, 0, 0);
+		    -ms-transform: translate3d(0%, 0, 0);
+		     -o-transform: translate3d(0%, 0, 0);
+		        transform: translate3d(0%, 0, 0);
+	}
+
+	.modal.right .modal-content {
+		height: auto;
+	}
+        
+/*Right*/
+	.modal.right.fade .modal-dialog {
+		right: -492px;
+		-webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+		   -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+		     -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+		        transition: opacity 0.3s linear, right 0.3s ease-out;
+	}
+	
+	.modal.right.fade.in .modal-dialog {
+		right: 0;
+	}
+	
+	/*.btns {
+		    justify-content: center;
+		    border: 1px solid #000;
+		    width: 100px;
+		    position: absolute;
+		}
+
+		.btns button {
+		    border: 1px solid #000;
+		    color: #000;
+		    border-radius: 0;
+		    background: #fff
+		}
+
+		.btns input {
+		    border: none;
+		    text-align: center;
+		    width: 20px;
+		    color: #000;
+		}*/
+		
+	.containerr {
+        display: flex;
+      }
+      img {
+        max-width: 100%
+      }
+      .image {
+        flex-basis: 40%
+      }
+      .text {
+        font-size: 15px;
+        padding-left: 15px;
+      }

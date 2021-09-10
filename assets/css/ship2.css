@@ -1,0 +1,21 @@
+.containers{
+          display: flex;
+          padding-left: 30px;
+      }
+        .images img {
+          height:  90px;
+          width: 70px;
+          border: 1px solid grey;
+          border-radius: 12px;
+      }
+        
+        .text {
+          font-size: 15px;
+          padding-left: 8px;
+      }
+      .new1 {
+          border-top: 1px solid black;
+      }
+    .pading{
+      padding-left: 30px;
+    }

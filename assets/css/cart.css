@@ -1,0 +1,62 @@
+.containers {
+        display: flex;
+      }
+      .images img {
+        max-width: 100%
+      }
+      .image {
+        flex-basis: 25%
+      }
+      .text {
+        font-size: 15px;
+        padding-left: 15px;
+      }
+      .btns {
+		    border: 1px solid #000;
+		    width: 105px;
+		    text-align: center;
+		    align-items: center;
+		    margin-top: 70px;
+		}
+
+		button {
+		    border: 1px solid #000;
+		    color: #000;
+		    border-radius: 0;
+		    background: #fff
+		}
+
+		input {
+		    border: none;
+		    text-align: center;
+		    width: 20px;
+		    color: #000;
+		}
+
+		/*BUTTON CSS Add to CarT & Add to Wish-List*/
+		.box1{
+			position: relative;
+			overflow: hidden;
+			text-align: center;  
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 150px;
+		}
+		
+		.content1{
+			color: #fff;
+			background: rgba(0, 0, 0, 0.3);
+			position: absolute;
+			top: 0;
+			left: -100%;
+			height: 100%;
+			width: 100%;
+			box-sizing: border-box;
+			transition: all 0.5s;
+		}
+		.box1:hover .content1{
+			left: 0;
+		}
+		hr.new2 {
+  				border-top: 1px solid black;
+			}
